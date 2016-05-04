@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -55,5 +56,12 @@ public class HomeController {
 		List<Department> dlist=new ArrayList<Department>();
 		dlist=departmentService.getAlldepartments();
 		return dlist;
+	}
+	
+	@RequestMapping(value = "/getone/{id}", method = RequestMethod.GET)
+	public @ResponseBody Department getalls(@PathVariable("id") int id){
+		Department dpart =new Department();
+		dpart=departmentService.getOneDepart(id);
+		return dpart;
 	}
 }
