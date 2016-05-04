@@ -47,13 +47,16 @@ public class DepartmentDaoImpl implements DepartmentDao{
    	
      return departmentList;
 	}
-  @Override
+   @SuppressWarnings("unchecked")
+   @Override
 	public Department getOneDepart(int id){
 		Session session = this.sessionFactory.getCurrentSession(); 
        Transaction tx = session.beginTransaction();
-       Department p = (Department) session.load(Department.class, new Integer(id));
+       //Department p = (Department) session.load(Department.class, new Integer(id));
+       List<Department> dp=session.createQuery("from Department where dpid = "+id).list();
        tx.commit();
-       logger.info("Person loaded successfully, Person details="+p);
+       logger.info("Person loaded successfully, Person details="+dp.get(0));
+       Department p=dp.get(0);
        return p;
 	}
 	

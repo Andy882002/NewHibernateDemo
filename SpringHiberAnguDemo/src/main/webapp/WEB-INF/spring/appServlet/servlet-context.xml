@@ -35,6 +35,7 @@
         <beans:property name="annotatedClasses">
             <beans:list>
                  <beans:value>com.demo.controller.domain.Department</beans:value>
+                 <beans:value>com.demo.controller.domain.Employee</beans:value>
             </beans:list>
         </beans:property>
         <beans:property name="hibernateProperties">
@@ -49,10 +50,19 @@
     <beans:bean id="departmentdao" class="com.demo.controller.dao.DepartmentDaoImpl">
         <beans:property name="sessionFactory" ref="hibernate3AnnotatedSessionFactory" />    
     </beans:bean>
-   
+  
     
     <beans:bean id="departmentService" class="com.demo.controller.service.DepartmentServiceImpl">
         <beans:property name="departmentdao" ref="departmentdao" />
+    </beans:bean>
+    
+     <beans:bean id="employeeDao" class="com.demo.controller.dao.EmployeeDaoImpl">
+        <beans:property name="sessionFactory" ref="hibernate3AnnotatedSessionFactory" />
+        
+    </beans:bean>
+	
+	<beans:bean id="employeeService" class="com.demo.controller.service.EmployeeServiceImpl">
+        <beans:property name="employeeDao" ref="employeeDao" />
     </beans:bean>
     
 	<tx:annotation-driven transaction-manager="transactionManager"/>
