@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/angularjs-1.2.0rc1.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/commons-logging-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/jackson-all-1.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/jackson-annotations-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/jackson-core-2.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/jackson-databind-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/java-json.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/java-json-schema.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/org.apache.commons.pool.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/org-apache-commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/slf4j.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-aop-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-aop-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-aop-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-aspects-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-aspects-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-aspects-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-beans-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-beans-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-beans-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-build-src-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-context-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-context-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-context-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-context-support-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-context-support-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-context-support-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-core-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-core-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-core-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-expression-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-expression-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-expression-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-framework-bom-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-framework-bom-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-framework-bom-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-instrument-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-instrument-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-instrument-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-instrument-tomcat-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-instrument-tomcat-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-instrument-tomcat-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-jdbc-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-jdbc-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-jdbc-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-jms-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-jms-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-jms-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-messaging-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-messaging-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-messaging-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-orm-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-orm-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-orm-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-oxm-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-oxm-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-oxm-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-test-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-test-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-test-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-tx-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-tx-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-tx-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-web-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-web-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-web-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-webmvc-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-webmvc-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-webmvc-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-webmvc-portlet-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-webmvc-portlet-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-webmvc-portlet-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-websocket-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-websocket-4.0.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/spring-websocket-4.0.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/springSTS/SpringTemp/standard-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/Json/jackson-all-1.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/Json/jackson-annotations-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/Json/jackson-core-2.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/Json/jackson-databind-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/Json/java-json.jar"/>
+	<classpathentry kind="lib" path="C:/myallfile/Json/java-json-schema.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
