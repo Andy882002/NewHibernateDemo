@@ -23,6 +23,14 @@ import com.demo.controller.domain.Employee;
 import com.demo.controller.service.DepartmentService;
 import com.demo.controller.service.EmployeeService;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 /**
  * Handles requests for the application home page.
  */
@@ -84,7 +92,7 @@ public class HomeController {
 	
 	@RequestMapping(value="/mytable", method = RequestMethod.GET)
 	public String showtables(){
-		return "showtable";
+		return "Angtap";    //mytap"; //"showtable";
 	}
 	
 	@RequestMapping(value = "/showall", method = RequestMethod.GET, headers="Accept=application/json")
@@ -152,4 +160,38 @@ public class HomeController {
 	       }
 	       return list;
 	    }
+	 @RequestMapping(value = "/deletemp/{id}", method = RequestMethod.DELETE)
+	 public @ResponseBody List<Employee> deleteEmp(@PathVariable("id") int id){
+		 List<Employee> list=new ArrayList<Employee>();
+		// list=employeeService.listAllEmployee();
+		 try {
+			 employeeService.removeEmployee(id);
+			 list=employeeService.listAllEmployee();
+		 }catch(Exception e){
+			 System.out.println(e.getStackTrace());
+		 }
+		  return list; 
+	 }
+	 @RequestMapping(value = "/newperson", method = RequestMethod.GET) 
+		public ModelAndView MyPerson() { 
+		return new ModelAndView("person", "command", new Employee()); 
+		} 
+		 
+		 @RequestMapping(value = "/addperson", method = RequestMethod.POST) 
+	   public String addStudent(@ModelAttribute("SpringWeb")Employee person, ModelMap model) { 		 
+		 //List<Employee> list=new ArrayList<Employee>();
+		 employeeService.save(person);
+		 System.out.println("save one employee *****  "+person.toString());
+		 //Employee emp =new Employee(); //employeeService.getEmployeeById(id);
+		
+		  return "showtable";
+	 }
+	 //empsave
+	 @RequestMapping(value="/empsave", method=RequestMethod.POST)
+	 public String saveOne(@RequestBody Employee employee) {
+		
+		 employeeService.save(employee);
+		
+		  return "showtable"; //"mytap";
+	 }
 }

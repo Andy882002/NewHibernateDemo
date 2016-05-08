@@ -37,9 +37,9 @@ public class EmployeeDaoImpl implements EmployeeDao{
 	        Transaction tx = session.beginTransaction();
 	    	//sessionFactory.getCurrentSession().saveOrUpdate ( employee );
 	    	 session.persist(employee);
-	    	 
+	    	 logger.info("commit to save");
 	    	tx.commit();
-	    	 logger.info("Person has been seved successfully, person details="+employee);
+	    	 logger.info("Person has been seved successfully, person details="+employee.toString());
 	    }
 	 
 	   @Override
